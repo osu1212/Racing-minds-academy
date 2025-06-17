@@ -1,0 +1,39 @@
+body{
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.personal-data-text{
+    font-family: Arial, sans-serif;
+    font-size: larger;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.label{
+    font-weight: 500;
+    font-size: small;
+}
+.academic-data{
+    font-family: Arial, sans-serif;
+    font-size: larger;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.submit{
+    width: 100%;
+    background-color: rgb(195, 115, 18);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;     
+}
+.submit:hover{
+    background-color: #0056b3;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="get">
+        <fieldset>
+            <legend>Student ID</legend>
+            <label for="studentId">First Name</label>
+      <input type="text" name="studentId " id="studentId"  autocomplete="on" required autofocus >
+        </fieldset>
+        <fieldset>
+            <legend>Matric Number</legend>
+            <label for="matricNumber">First Name</label>
+      <input type="text" name="matricNumber" id="matricNumber" pattern="^(20[123][0-9])/(0[1-9]|1[0-2])/[0-9]{5}[A-Z]{2} "  autocomplete="on" required autofocus >
+        </fieldset>
+               <fieldset>
+    <!-- Camera feed -->
+    <video id="video" width="320" height="240" autoplay></video>
+    <canvas id="canvas" width="320" height="240" style="display:none;"></canvas>
+    
+    <!-- Hidden field for image -->
+    <input type="hidden" name="faceImage" id="faceImage">
+
+    <button type="button" onclick="openCamera()">Open Camera</button>
+    <button type="button" onclick="captureFace()">Capture Face</button>
+    <button type="submit" class="create-account" formaction="https://httpbin.org/post" formmethod="post">Submit Form</button>
+               </fieldset> 
+    </form>
+    <script src="create-account.js"></script>
+</body>
+</html>
