@@ -38,13 +38,6 @@ const departmentOptions = {
   
     const formData = new FormData(this);
   
-    fetch("submit.php", {
-      method: "POST",
-      body: formData
-    })
-    .then(response => {
-      if (response.ok) {
-        // Redirect to create-account.html after backend gets the data
         window.location.href = "create-account.html";
       } else {
         alert("Submission failed.");
@@ -54,5 +47,5 @@ const departmentOptions = {
       console.error("Error:", error);
       alert("There was an error submitting the form.");
     });
-  });
+  
   
