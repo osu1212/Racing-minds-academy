@@ -4,11 +4,11 @@ body{
     align-items: center;
     display: flex;
 }
-.personal-data-text{
+.personal-data{
     font-family: Arial, sans-serif;
     font-size: larger;
     font-weight: 600;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     display: flex;
 }
@@ -20,7 +20,7 @@ body{
     font-family: Arial, sans-serif;
     font-size: larger;
     font-weight: 600;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     display: flex;
 }
@@ -36,4 +36,5 @@ body{
 }
 .submit:hover{
     background-color: #0056b3;
+
 }
